@@ -12,3 +12,7 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+.unordered-list {
+  list-style-type: disc;
+}
