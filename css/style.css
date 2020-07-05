@@ -128,5 +128,10 @@ textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-
           box-shadow: 0 1px 0 0 rgb(13, 113, 228);;
 }
 
-
-
+.coll {
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  min-height: 1px;
+}
