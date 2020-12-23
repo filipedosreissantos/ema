@@ -7,22 +7,18 @@
 }
 
 .social-media {
-  list-style-type: none !important;
-  margin: 0px auto !important;
-  padding: 0 !important;
-  overflow: hidden !important;
+  list-style-type: none;
+  margin: 0px auto;
+  padding: 0;
+  overflow: hidden;
   max-width: 128px !important;
 }
 
 .social-media li a {
-  display: block !important; 
-  text-align: center !important;
   height: 32px !important;
   width: 32px !important;
-  text-indent: -9999px !important;
-  overflow: hidden !important;
+  overflow: hidden;
   background-size: 32px !important;
-  
 }
 
 #facebook { background-image: url('../img/facebook.png'); }
