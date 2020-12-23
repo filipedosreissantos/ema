@@ -1,94 +1,132 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Fale Conosco - Escola Municipal Mário Andreazza</title>
+<html lang="pt-br">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>E.M.M.A - Fale Conosco</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  </head>
+  <body class="">
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-</head>
-<body>
-  <nav class="blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">E.M.M.A</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="estin.html">Institucional</a></li>
-        <li><a href="curso.html">Cursos</a></li>
-        <li><a href="servi.html">Servidores</a></li>
-        <li><a href="falec.html">Fale Conosco</a></li>
-      </ul>
+    <!-- Barra de Navegação -->
+    <header>
+      <div>
+        <!--
+        <ul id="dropdownOne" class="dropdown-content">
+          <li><a href="trabalhoTemplate.html"><span class="black-text">TrabalhoTemplate</span></a></li>
+          <li class="divider"></li>
+          
 
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="estin.html">Institucional</a></li>
-        <li><a href="curso.html">Cursos</a></li>
-        <li><a href="servi.html">Servidores</a></li>
-        <li><a href="falec.html">Fale Conosco</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+          <li><a href="#!"><span class="black-text">Template</span></a></li>
+          <li class="divider"></li>
 
-  <div class="container icon-block">
-    <div class="section row">
-      <form action="submit.php" method="GET" class="col s12">
-        <div class="input-field col s6">
-          <input placeholder="Primeiro Nome" id="first_name" type="text" class="validate">
-          <label for="first_name">Primeiro Nome</label>
-        </div>
+          
+        </ul>
 
-        <div class="input-field col s6">
-          <input placeholder="Último Nome" id="last_name" type="text" class="validate">
-          <label for="last_name">Último Nome</label>
-        </div>
+        <ul id="dropdownTwo" class="dropdown-content">
+          <li><a href="trabalhoTemplate.html"><span class="black-text">TrabalhoTemplate</span></a></li>
+          <li class="divider"></li>
 
-        <div class="input-field col s12">
-          <input placeholder="E-mail" id="my_email" type="email" class="validate">
-          <label for="my_email">E-mail</label>
-        </div>
+          <li><a href="#!"><span class="black-text">Template</span></a></li>
+          <li class="divider"></li>
+        </ul>
+        -->
+        
 
-        <div class="input-field col s12">
-            <textarea placeholder="Mensagem" id="textarea1" class="materialize-textarea" class="validate"></textarea>
-            <label for="textarea1">Mensagem</label>
-        </div>
-      </form>
-      <div class="row center">
-        <a href="submit.php" id="download-button" class="btn-large waves-effect waves-light blue" mailto="filipedosreissantos@hotmail.com">Enviar<i class="material-icons right">send</i></a>
+        <nav class="blue lighten-1" role="navigation">
+          <div class="nav-wrapper container">
+            <a href="index.html" id="logo-container" class="brand-logo">E.M.M.A</a>
+            
+            <ul class="right hide-on-med-and-down">
+              <li><a class="waves-effect" href="index.html">Home</a></li>
+              <li><a class="waves-effect" href="estin.html">Institucional</a></li>
+              <li><a class="waves-effect" href="curso.html">Cursos</a></li>
+              <li><a class="waves-effect" href="servi.html">Servidores</a></li>
+              <li><a class="waves-effect" href="falec.html">Fale Conosco</a></li>
+              <!--<li><a class="dropdown-trigger waves-effect" href="#!" data-target="dropdownOne">Trabalhos<i class="material-icons right">arrow_drop_down</i></a></li>-->
+            </ul>
+
+
+            <ul id="nav-mobile" class="sidenav blue lighten-1 no-pad-bot">
+              <li><a class="waves-effect white-text" href="index.html">Home</a></li>
+              <li><a class="waves-effect white-text" href="estin.html">Institucional</a></li>
+              <li><a class="waves-effect white-text" href="curso.html">Cursos</a></li>
+              <li><a class="waves-effect white-text" href="servi.html">Servidores</a></li>
+              <li><a class="waves-effect white-text" href="falec.html">Fale Conosco</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+           
+           </div>          
+        </nav>
+               
+      </div>      
+    </header>
+    
+    <!-- Conteúdo Principal -->
+    <main>
+      <div class="container icon-block">
+        <div class="section row">
+            <form action="submit.php" method="GET" class="col s12">
+              <div class="input-field col s6">
+                <input placeholder="Primeiro Nome" id="first_name" type="text" class="validate">
+                <label for="first_name">Primeiro Nome</label>
+              </div>
+      
+              <div class="input-field col s6">
+                <input placeholder="Último Nome" id="last_name" type="text" class="validate">
+                <label for="last_name">Último Nome</label>
+              </div>
+      
+              <div class="input-field col s12">
+                <input placeholder="E-mail" id="my_email" type="email" class="validate">
+                <label for="my_email">E-mail</label>
+              </div>
+      
+              <div class="input-field col s12">
+                  <textarea placeholder="Mensagem" id="textarea1" class="materialize-textarea" class="validate"></textarea>
+                  <label for="textarea1">Mensagem</label>
+              </div>
+            </form>
+            <div class="row center">
+              <a href="submit.php" id="download-button" class="btn-large waves-effect waves-light blue" mailto="e.m.andreazza@hotmail.com">Enviar<i class="material-icons right">send</i></a>
+            </div>
+          </div>
+        </div><br /><br />      
       </div>
-    </div>
-  </div><br /><br />
+    </main>
 
-  <footer class="page-footer blue">
-    <div class="container">
-      <div class="row">
-        <div class="col l7 s12">
-          <h5 class="white-text">Escola Municipal Mário Andreazza</h5>
-          <p class="white-text text-lighten-4">Somos um pequeno grupo de servidores públicos, que arduamente trabalha para trazer o melhor para as nossas crianças.</p>
-        </div>
-        <div class="col l5 s12">
-          <h5 class="white-text">Redes Sociais</h5>
-          <ul>
-            <li><a class="white-text coll m12 s12" href="#!"><i class="material-icons">face</i></a></li>
-            <li><a class="white-text coll m12 s12" href="https://instagram.com/e.m.andreazza?igshid=byqdkrab1mub"><i class="material-icons">camera_enhance</i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright red darken-1 center-align">
+    <!-- Rodapé -->
+    <footer class="page-footer grey darken-4">
       <div class="container">
-        Made by <a class="white-text text-lighten-3" href="https://github.com/filipedosreissantos">Filipe Reis</a>
+        <div class="row">
+          <div class="col l12 s12 m12">
+            <h5 class="white-text center-align">Escola Municipal Mário Andreazza</h5>
+            <p class="gray-text text-justify">Somos um pequeno grupo de servidores públicos, que arduamente trabalha para trazer o melhor para as nossas crianças.</p>
+          </div>              
+        </div>
       </div>
-    </div>
-  </footer>
 
+      <div class="footer-copyright blue lighten-1">
+        <div class="container">
+            <div class="center-align black-text">
+                <span>&copy Todos os direitos reservados.</span>
+                <span>Feito por <a class="black-text" href="https://www.facebook.com/profile.php?id=100030071348523">Filipe Reis</a></span>
+                <ul class="social-media">
+                    <li class="right"><a id="facebook" href="#!">FaceBook</a></li>
+                    <li class="right"><a id="instagram" href="https://instagram.com/e.m.andreazza?igshid=byqdkrab1mub">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </footer>
 
-  <!--  Scripts-->
-  <script src="js/jquery-2.1.1.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-
+    <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript" src="js/init.js"></script>
+    <script type="text/javascript" src="js/messageF.js"></script>
   </body>
 </html>

@@ -1,0 +1,1 @@
+alert("Atenção:\n\nO formulário a seguir encontra-se inoperante e somente funcionará após decisão Municipal em favor de elaborar concurso público para a instauração de Setor de tecnologia na Escola.\n\nAtenciosamente,\n\nFilipe Reis")
